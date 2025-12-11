@@ -29,12 +29,12 @@ const MobileNav = ({ currentView, setView, setItemToEdit, setQuoteToEdit }) => {
         <nav className="fixed bottom-0 left-0 right-0 md:hidden bg-white border-t border-gray-200 shadow-xl p-2 flex justify-around">
             <div className="flex"><NavItem viewName="dashboard" icon={LayoutDashboard} label="Dash" /></div>
             <div className="flex"><NavItem viewName="quotation-list" icon={FileText} label="Quotes" /></div>
-            <div className="flex"><NavItem viewName="item-list" icon={ReceiptIndianRupee} label="Invoice" /></div>
-            <div className="flex"><NavItem viewName="item-list" icon={User} label="Customer" /></div>
-            <div className="flex"><NavItem viewName="item-list" icon={Notebook} label="Boq" /></div>
-            <div className="flex"><NavItem viewName="item-list" icon={CreditCard} label="Purchase" /></div>
-            <div className="flex"><NavItem viewName="item-list" icon={File} label="Proforma" /></div>
-            <div className="flex"><NavItem viewName="item-list" icon={UserCircle} label="Users" /></div>
+            <div className="flex"><NavItem viewName="invoice-list" icon={ReceiptIndianRupee} label="Invoice" /></div>
+            <div className="flex"><NavItem viewName="customer-list" icon={User} label="Customer" /></div>
+            <div className="flex"><NavItem viewName="boq-list" icon={Notebook} label="Boq" /></div>
+            {/* <div className="flex"><NavItem viewName="item-list" icon={CreditCard} label="Purchase" /></div>
+            <div className="flex"><NavItem viewName="item-list" icon={File} label="Proforma" /></div> */}
+            <div className="flex"><NavItem viewName="user-list" icon={UserCircle} label="Users" /></div>
         </nav>
     );
 };
