@@ -196,7 +196,7 @@ const Login = ({ onLogin }) => {
                         Admin Login
                     </h1>
                     <p className="text-gray-600">
-                        Sign in to your Chromatics admin account
+                        Sign in to your Quotation-App admin account
                     </p>
                 </div>
 
